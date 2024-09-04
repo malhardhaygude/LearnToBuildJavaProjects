@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.in28minutes</groupId>
-	<artifactId>CreatingaCRUDRESTAPIServicewithSpringBootJPAandHibernate</artifactId>
+	<artifactId>SpringBootandSwaggerDocumentingRESTfulServicesRESTAPI</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>CreatingaCRUDRESTAPIServicewithSpringBootJPAandHibernate</name>
+	<name>SpringBootandSwaggerDocumentingRESTfulServicesRESTAPI</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -29,6 +29,9 @@
 	<properties>
 		<java.version>17</java.version>
 	</properties>
+
+
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -60,10 +63,18 @@
 		<scope>runtime</scope>
 		</dependency>
 
+<!--		<dependency>-->
+<!--			<groupId>com.fasterxml.jackson.dataformat</groupId>-->
+<!--			<artifactId>jackson-dataformat-xml</artifactId>-->
+<!--		</dependency>-->
+
 		<dependency>
-			<groupId>com.fasterxml.jackson.dataformat</groupId>
-			<artifactId>jackson-dataformat-xml</artifactId>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-boot-starter</artifactId>
+			<version>3.0.0</version>
 		</dependency>
+
+
 	</dependencies>
 
 
